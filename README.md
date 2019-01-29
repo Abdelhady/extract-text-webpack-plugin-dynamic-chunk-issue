@@ -13,6 +13,8 @@ and open `http://localhost:8080` in your browser
 
 Details:
 --
+In order to postpone loading the css of dynamically imported chunks until they are being loaded in page, I'm setting the option `allChunks: false` in my webpack build, but then I found the following weird behaviour:
+
 When `dynamic.css` is loaded only through the dynamically imported `dynamic.js`, everything works fine, 
 where the extract plugin leave the `dynamic.css` to be inserted in page with `style-loader` as a fallback.
 
