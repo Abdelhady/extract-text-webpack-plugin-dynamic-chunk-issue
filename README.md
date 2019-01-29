@@ -19,7 +19,9 @@ where the extract plugin leave the `dynamic.css` to be inserted in page with `st
 But the problem happens when loading `dynamic.css` twice, once in a dynamic chunk inside `entry1`, & another one in the other entry `entry2` directly, 
 where the extract plugin extracts the `dynamic.css`, but doesn't inject it in `entry1`!
 
+
 The expected behaviour should be:
+--
 * For `entry2`: `dynamic.css` should be part of the extracted css `entry2.css` --> which works fine
 * For `entry1`: `dynamic.css` should be part of the dynamically imported chunk `dynamic.js`,
 where the contents of `dynamic.css` will be injected in page with `style-loader` --> This doesn't work, instead `dynamic.css` is totally gone
