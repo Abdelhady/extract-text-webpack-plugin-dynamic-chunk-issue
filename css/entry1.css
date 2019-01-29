@@ -1,6 +1,11 @@
-.one{
-	background: blue;
-}
 h1{
-	padding: 1px;
+	padding: 5px;
+}
+.no-dynamic-yet{
+	display: block;
+	color: red;
+}
+.dynamic-has-loaded{
+	display: none;
+	color: green;
 }

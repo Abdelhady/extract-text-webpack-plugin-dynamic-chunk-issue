@@ -1,6 +1,6 @@
-.dynamic{
-	background: green;
+.no-dynamic-yet{
+	display: none;
 }
-h1{
-	padding: 30px;
+.dynamic-has-loaded{
+	display: block;
 }
