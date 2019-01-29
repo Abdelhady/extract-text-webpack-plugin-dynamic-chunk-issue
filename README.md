@@ -27,3 +27,5 @@ The expected behaviour should be:
 * For `entry2`: `dynamic.css` should be part of the extracted css `entry2.css` --> which works fine
 * For `entry1`: `dynamic.css` should be part of the dynamically imported chunk `dynamic.js`,
 where the contents of `dynamic.css` will be injected in page with `style-loader` --> This doesn't work, instead `dynamic.css` is totally gone
+
+**Note for incremental builds:** The behaviour mentioned here is for standalone builds of webpack, but incremental builds have a different behaviour where the `dynamic.css` will be part of `entry1.css`, which again is **not** the expected result.
