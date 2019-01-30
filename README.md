@@ -5,6 +5,7 @@ My Environment:
 * Node: v10.0.0
 * Npm: 6.5.0
 * Os: Ubuntu 16.04
+* webpack: 3.12.0
 
 Steps:
 --
