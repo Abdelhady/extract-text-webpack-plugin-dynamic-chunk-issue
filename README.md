@@ -12,7 +12,7 @@ Steps:
 
 1. Clone or download the repo
 2. run `npm i`
-3. run `webpack`
+3. run `npm run build`
 3. open `node app.js`
 
 and open `http://localhost:8080` in your browser
