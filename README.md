@@ -1,7 +1,13 @@
 # extract-text-webpack-plugin-dynamic-chunk-issue
 To demonstrate an `extract-text-webpack-plugin` issue when loading dynamic chunks
 
+My Environment:
+* Node: v10.0.0
+* Npm: 6.5.0
+* Os: Ubuntu 16.04
+
 Steps:
+--
 
 1. Clone or download the repo
 2. run `npm i`
